@@ -49,7 +49,7 @@ Type of operating system that allows multiple processors to work together on a s
 ---
 
 ### Process Scheduling:
-- The objective of ``multiprogramming`` is to have some process running at all times, to maximize CPU utilization.
+- The ``objective of multiprogramming`` is to have some process running at all times, to maximize CPU utilization.
 - The objective of ``time sharing`` is to switch the CPU among processes so frequently that the users can interact with each program while it is running.
 - To meet these objectives, the process scheduler selects an available process (possibly from a set of several available processes) for program execution on the CPU.
   - For a single-processor system, there will never be more than one running process.
@@ -58,7 +58,8 @@ Type of operating system that allows multiple processors to work together on a s
 
 
 ### Scheduling Queues:
-![image](https://github.com/nishant05gaurav/Notes/assets/140972654/fa2012a1-378f-4e9d-a7ce-ac648d932017)
+![image](https://github.com/nishant05gaurav/Notes/assets/140972654/a6b133c2-e7ba-474c-b887-dd47c019c840)
+
 ![image](https://github.com/nishant05gaurav/Notes/assets/140972654/3a784259-97a5-444a-94bf-c32c1e6eb881)
 
 
