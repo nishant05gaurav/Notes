@@ -1,4 +1,4 @@
-##  Operating System
+##   Operating System
 
 ![image](https://github.com/nishant05gaurav/Notes/assets/140972654/f069b322-d04d-4631-8d4e-523c5744d940)
 
