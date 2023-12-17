@@ -12,7 +12,7 @@
 ---
 
 ### Separator 
-For separator, we use ``---`` lines.
+For separator, we use  ``---`` lines.
 Example:
 
 ---
