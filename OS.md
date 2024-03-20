@@ -4,6 +4,7 @@
 
 ### Types of OS:
 
+
 #### 1. Multi-programming:
 Type of operating system that allows multiple programs to reside in the main memory at the same time and share the CPU resources. The main objective of multi-programming is to maximize the CPU utilization and minimize the idle time. Multi-programming does not require multiple processors or threads, but only one processor that switches between different programs in the memory.
 
