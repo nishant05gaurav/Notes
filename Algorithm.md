@@ -71,8 +71,8 @@ s = s(n) = s(3)
 ![image](https://github.com/nishant05gaurav/Notes/assets/140972654/699e19fc-f10a-40e4-b6bc-eddbcda8a4ac)
 
 
-![image](https://github.com/nishant05gaurav/Notes/assets/140972654/32f105c5-03ae-45fc-989d-a3088aca7ff0)
 
+![image](https://github.com/nishant05gaurav/Notes/assets/140972654/32f105c5-03ae-45fc-989d-a3088aca7ff0)
 
 ![image](https://github.com/nishant05gaurav/Notes/assets/140972654/00c561d1-dc79-44c1-8cac-9842c0ae730c)
 
