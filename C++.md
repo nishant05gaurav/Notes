@@ -23,7 +23,7 @@
 
 ![Alt text](image-39.png)
 
-- List of operators that cannot be overload are :
+The list of operators that cannot be overloaded are :
 1. Scope Resolution Operator  ( ::  )    
 2. Ternary or Conditional Operator (  ?:  )   
 3. Member Access or Dot operator  ( .  )   
