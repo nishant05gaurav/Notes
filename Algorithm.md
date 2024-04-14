@@ -2,14 +2,14 @@
 
 #### `Algorithm v/s Program`
 
-|                                                Algorithm                                                 |                                   Program                                    |
-| :------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| Algorithm                                                                                                | Program                                                                      |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | step-by-step procedure or set of rules designed to solve a specific problem or perform a particular task | It is a specific implementation of an algorithm using a programming language |
-|                                                  Design                                                  |                                Implementation                                |
-|                                             Domain Knowledge                                             |                                  Programmer                                  |
-|                                               Any Language                                               |                             Programming Lnaguage                             |
-|                                             Hardware and OS                                              |                               Hardware and OS                                |
-|                                                 Analyze                                                  |                                   Terting                                    |
+| Design                                                                                                   | Implementation                                                               |
+| Domain Knowledge                                                                                         | Programmer                                                                   |
+| Any Language                                                                                             | Programming Lnaguage                                                         |
+| Hardware and OS                                                                                          | Hardware and OS                                                              |
+| Analyze                                                                                                  | Terting                                                                      |
 
 #### `Prior Analysis v\s Posterior Testing`
 
@@ -68,17 +68,13 @@ s = s(n) = s(3)
 
 ```
 
-![image](https://github.com/nishant05gaurav/Notes/assets/140972654/699e19fc-f10a-40e4-b6bc-eddbcda8a4ac)
+![alt text](image-12.png)
 
+![alt text](image-13.png)
 
+![alt text](image-15.png)
 
-![image](https://github.com/nishant05gaurav/Notes/assets/140972654/32f105c5-03ae-45fc-989d-a3088aca7ff0)
-
-![image](https://github.com/nishant05gaurav/Notes/assets/140972654/00c561d1-dc79-44c1-8cac-9842c0ae730c)
-
-
-![image](https://github.com/nishant05gaurav/Notes/assets/140972654/796caaae-6c92-4730-99ba-e7646a08d1ce)
-
+![alt text](image-16.png)
 
 ### DisJoint Sets:
 
@@ -259,20 +255,20 @@ Algorithm RBinSearch (l, h, key)
 
     - `When to Use`
 
-      1. Finding the shortest path in Dijkstra's algorithm for graph traversal.
-      2. Implementing the Prim's algorithm for finding the minimum spanning tree.
+    1. Finding the shortest path in Dijkstra's algorithm for graph traversal.
+    2. Implementing the Prim's algorithm for finding the minimum spanning tree.
 
-      ```md
-             8
-            /  \
-          10    16
+    ```md
+           8
+          /  \
+        10    16
+        / \   / \
 
-      / \ / \
-       15 30 20 50
+    15 30 20 50
 
-      Index: 0 1 2 3 4 5 6 7
-      Array: [8, 10, 16, 15, 30, 20, 50]
-      ```
+    Index: 0 1 2 3 4 5 6 7
+    Array: [8, 10, 16, 15, 30, 20, 50]
+    ```
 
 #### `Insertion Element in Heap`:
 
@@ -389,3 +385,78 @@ Algorithm RBinSearch (l, h, key)
     4. If adding an object exceed the weight capacity, skip the object
     5. Continue, till the bag is full or there are no more objects to add
 
+#### `Job Sequencing with Deadlines`(Greedy-Method):
+
+- The goal is to sequence the jobs in a way that maximizes the total profit while meeting all the deadlines
+  ![alt text](image-33.png)
+
+#### `Optimal Merge Sort`(Greedy-Method):
+
+- Here, in these kind of problems we use the concept of merging sorted list and combining them into one sorted list
+- Time Complexity is O(m+n)
+- **Goal** is to find the way to merge multiple sorted lists that minimizes the total merging cost
+  ![alt text](image-34.png)
+  ![alt text](image-35.png)
+
+#### `Huffman Coding`(Greedy-Method):
+
+- Huffman coding is a compression tecnique that is used to reduce the size of a file or data before transmission over a network
+- Here, the frequently used alphabets are assigned shorter codes and less frequent alphabets are assigned longer codes. This way, the overall size of the encoded message is reduced
+  ![alt text](image-37.png)
+
+#### `Minimum-Cost Spanning Tree`:
+
+- **Spanning tree** is a subgroup of a graph having all vertices but only (n-1) edges
+- They do not have cycles
+  ![alt text](image-38.png)
+- For non-connected graphs, we cannot calculate the spanning tree
+- Ways to find minimum-cost spanning tree:
+  - Prim's Algorithm
+  - Krushkal's Algorithm
+
+#### `Prim's Algorithm`:
+
+![alt text](image-39.png)
+
+- Time Complexity = **O(V^2)**
+
+#### `Krushkal's Algorithm`:
+
+![alt text](image-40.png)
+
+- Time Complexity can be improved to **O(E log V)** using a min-heap data structure.
+
+#### `Dijkstra Algorithm`:
+
+- Dijkstra's algorithm, is a powerful tool for finding the shortest paths between a starting point and all other reachable nodes in a weighted graph.
+- For single source path problem/minimization problem/optimization problem(Greedy Method).
+- Works for non-negative edge weights (travel times cannot be negative).
+- It guarantees finding the shortest path for all reachable nodes in the graph.
+  ![alt text](image-41.png)
+
+### `Dyanmic Programming`:
+
+- **Dynamic programming** is a powerful technique that efficiently solves complex problems by breaking them into overlapping subproblems, and storing solutions for reuse to avoid redundant computations.
+- It is a technique where you find all the solutions and then pick up the best solution, the optimal solution
+- Follows the `principle of optimality` (Problems must be solved in the sequence of decisions)
+- Time consuming process
+- We use **iterative** instead recursion to save time
+- `Cons`:
+  - **Memory usage**: Uses tables or caches to store subproblem solutions and leads to high memory usage, especially for problems with large input sizes
+  - **Limited applicability**: All problems can't be solved and works best for problems with optimal substructure and overlapping subproblems
+
+![alt text](image-47.png)
+
+#### `Greedy Method v/s Dynamic Programming`:
+
+|            Feature            |      Greedy Method      |    Dynamic Programming     |
+| :---------------------------: | :---------------------: | :------------------------: |
+|           Approach            | Locally optimal choices |    Optimal substructure    |
+| Guarantee of Optimal Solution |           No            |  Yes (if solution exists)  |
+|        Execution Speed        |         Faster          |    Slower (potentially)    |
+|   Implementation Complexity   |    Generally simpler    | More complex design needed |
+
+### `MultipleStage Graph`(Dynamic Programming):
+- 
+
+![alt text](image-48.png)
