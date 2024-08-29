@@ -1,17 +1,17 @@
 <h1 align="center">HTML</h1>
 
-- In 1989, _Tim Berners-Lee_ established the World Wide Web (www), and in 1991, he created the first version of HTML.
+- In 1989, _Tim Berners-Lee_ established the World Wide Web (www); in 1991, he created the first version of HTML.
 - HTML (HyperText Markup Language) was created by **Tim Berners-Lee** in 1991 as a standard for creating web pages.
 - Language of Web, used for the creation of websites.
-- We use HTML tags to define look and feel of a websites.
-- Used for definig the layout of a page - A barebone page structure.
+- We use HTML tags to define the look and feel of a website.
+- Used for defining the layout of a page - A barebone page structure.
   - Example: Skeleton of a body.
 - **Hypertext** -> linking of texts with other documents
-- **Markup Language** -> language that utilises a specific set of tags
+- **Markup Language** -> language that utilizes a specific set of tags
 
 ### Need CSS & JavaScript
 
-- ![alt text](image-7.png)
+ ![alt text](image-7.png)
 - **`CSS`** is primarily used for styling and formatting HTML elements on a webpage. It controls the visual presentation of the content.
   - Example: Setting the background color, adjusting the font size, defining the layout of elements using flexbox or grid, adding animations or transitions, etc.
 - **`JavaScript`** is used for adding interactivity and dynamic behavior to HTML pages. It enables developers to manipulate the HTML structure, respond to user actions, and modify CSS styles dynamically.
@@ -23,25 +23,24 @@
 - Reasons:
   - The web server looks for an `index.html` file in the root directory by default. If found, this file is served to the user as the initial webpage they see.
   - Used to organize and structure the main content of a website. It can contain links to other pages and other menus.
-  - Search engines like Google often prioritize indexing the content of the `index.html` file when crawling websites. A well-optimized `index.html` page can improve a website's visibility hence better for SEO (Search Engine Optimazation).
+  - Search engines like Google often prioritize indexing the content of the `index.html` file when crawling websites. A well-optimized `index.html` page can improve a website's visibility hence better for SEO (Search Engine Optimization).
 
 ### A Basic HTML Page
-
 ![alt text](image-1.png)
 
  <!-- Update Image -->
 
 - A tag is like a container for either content or other HTML tags.
   **`HTML Document --> Browser --> Rendered Page`**
-- Most of the HTML elements have openning and closing tag with content in between opening and closing tags.
+- Most of the HTML elements have opening and closing tags with content in between opening and closing tags.
 - Some HTML tags have no content so they are called empty elements. eg: `<br>`
-- We can either use `.html` or `.htm` extension
+- We can either use the `.html` or `.htm` extension
 - `<!-- HTML Comment -->` used as comment in HTML pages
 - Case insensitive i.e. `<H1>` is same as `<h1>`
 
 ### HTML Element
 
-- Building blocks used to create the structure and content of a web page & consists of a start tag, content, and an end tag.
+- Building blocks used to create the structure and content of a web page & consist of a start tag, content, and an end tag.
 - Represent various types of content such as text, images, videos, forms, and more.
 - They provide the structure and semantics necessary for web browsers to render web pages correctly.
   - `Block-level elements`:
@@ -55,8 +54,8 @@
 
 ### HTML Attributes
 
-- Provide additional information about HTML elements and are typically included within the opening tag of an element.
-- Modifies the behavior, appearance, or provide metadata about the element.
+- Provide additional information about HTML elements which are typically included within the opening tag of an element.
+- Modifies the behavior, and appearance, or provides metadata about the element.
 - Example:
   - `id`: Specifies a unique identifier for an element
   - `href`: Specifies the URL of a hyperlink
